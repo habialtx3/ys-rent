@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    @apply bg-brand-bg text-brand-light;
+  }
+}
+
+@layer components {
+  .bento-card {
+    @apply rounded-[var(--radius-bento)] transition-all duration-300 
+           shadow-[var(--shadow-bento-inner)] overflow-hidden border border-white/5;
+  }
+}
+
+@layer components {
+  section {
+    @apply py-12 relative;
+  }
+}
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Inter", sans-serif;
+
+  /* Colors */
+  --color-brand-orange: #FF6D1F;
+  --color-brand-bg: #222222;
+  --color-brand-accent: #F5E7C6;
+  --color-brand-light: #FAF3E1;
+  --color-dark-text: #222222;
+
+  /* Radius */
+  --radius-bento: 2rem;
+  --radius-inner: 1rem;
+
+  /* Shadow */
+  --shadow-bento-inner: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+  --shadow-float: 0 20px 40px -15px rgba(0, 0, 0, 0.3);
+}
