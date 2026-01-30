@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function Navbar() {
     return (
         <nav className="bg-brand-bg/60 backdrop-blur-xl border border-white/10 rounded-full px-6 py-4 flex items-center justify-between shadow-float">
