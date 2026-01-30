@@ -8,7 +8,7 @@ export default function FooterContent() {
                         <span className="material-symbols-outlined !text-lg">car_rental</span>
                     </div>
                     <h2 className="text-lg font-black tracking-tighter uppercase italic">
-                        EliteDrive
+                        YS Rental Car
                     </h2>
                 </div>
                 <div className="flex gap-8 text-[10px] font-black uppercase tracking-widest text-white/40">
@@ -23,7 +23,7 @@ export default function FooterContent() {
                     </a>
                 </div>
                 <p className="text-[10px] font-bold text-white/20 uppercase tracking-widest">
-                    © 2024 Artsy Rental Group
+                    © 2024 YS Rental Group
                 </p>
             </div>
         </>

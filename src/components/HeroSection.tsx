@@ -1,7 +1,7 @@
 export default function HeroSection() {
     return (
         <>
-            <div className="lg:col-span-7 bento-card bg-brand-light p-10 lg:p-16 flex flex-col justify-center relative group">
+            <div className="lg:col-span-7 bento-card bg-brand-light p-10 lg:p-16 flex flex-col justify-center relative sm:mt-4 group">
                 <div className="absolute top-8 left-8 flex items-center gap-2">
                     <span className="w-2 h-2 bg-brand-orange rounded-full" />
                     <span className="text-[10px] font-black uppercase tracking-[0.2em] text-dark-text/40">

@@ -90,7 +90,7 @@ export default function CarList() {
         <>
             <div className="flex justify-between items-center px-4 mb-4">
                 <h2 className="text-3xl font-black tracking-tighter">
-                    ARMADA KAMI
+                    MOBIL KAMI
                 </h2>
                 <a className="text-xs font-black uppercase tracking-widest text-brand-orange flex items-center gap-2 group">
                     Lihat Semua
@@ -113,8 +113,8 @@ export default function CarList() {
             >
                 {cars.map((car, i) => (
                     <SwiperSlide key={i}>
-                        <div className="bento-card bg-brand-light text-dark-text p-4 h-full">
-                            <div className="relative h-60 rounded-inner overflow-hidden mb-6 bg-brand-accent/20">
+                        <div className="bento-card bg-brand-light text-dark-text p-2 h-full">
+                            <div className="relative h-50 rounded-inner overflow-hidden mb-6 bg-brand-accent/20">
                                 <img
                                     src={car.img}
                                     alt={car.name}
@@ -122,11 +122,7 @@ export default function CarList() {
                                 />
                                 <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-md px-4 py-1.5 rounded-full shadow-sm">
                                     <span className="text-xs font-black tracking-widest text-brand-orange">
-                                        {new Intl.NumberFormat("id-ID", {
-                                            style: "currency",
-                                            currency: "IDR",
-                                            minimumFractionDigits: 0,
-                                        }).format(car.price)}
+                                        Rp {car.price.toLocaleString('id-Id')}
                                     </span>
                                     <span className="text-[10px] font-bold opacity-40 uppercase">
                                         /hari

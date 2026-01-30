@@ -20,7 +20,7 @@ function App() {
         <section className="grid lg:grid-cols-12 gap-4 h-auto lg:h-[700px]">
           <HeroSection />
         </section>
-        <section className="grid lg:grid-cols-3 gap-4 auto-rows-[300px]" id="about">
+        <section className="grid lg:grid-cols-3 grid-cols-2 gap-4 auto-rows-[300px]" id="services">
           <ServiceList />
         </section>
         <section className="space-y-4" id="fleet">

@@ -1,27 +1,15 @@
+
 export default function ServiceList() {
     return (
         <>
-            <div className="lg:col-span-2 bento-card bg-white/5 p-12 flex flex-col justify-center">
-                <h2 className="text-3xl font-black mb-6 tracking-tighter">
-                    LAYANAN KAMI
-                </h2>
-                <p className="text-brand-accent/60 text-lg leading-relaxed max-w-xl">
-                    Solusi transportasi premium di Batam. Fleksibel, nyaman, dan profesional
-                    untuk segala kebutuhan perjalanan Anda — dari bisnis hingga wisata.
-                </p>
-                <div className="flex gap-12 mt-8">
-                    <div>
-                        <p className="text-4xl font-black text-brand-orange">24/7</p>
-                        <p className="text-[10px] uppercase font-bold tracking-widest opacity-40">
-                            Customer Support
-                        </p>
-                    </div>
-                    <div>
-                        <p className="text-4xl font-black text-brand-orange">100+</p>
-                        <p className="text-[10px] uppercase font-bold tracking-widest opacity-40">
-                            Armada Siap Jalan
-                        </p>
-                    </div>
+            <div className="lg:col-span-1 bento-card bg-white/5 p-12 flex flex-col justify-center">
+                <div>
+                    <h3 className="text-2xl md:text-4xl bg-brand-orange max-w-fit p-2 rounded-xl font-black tracking-tight mb-2">
+                        LAYANAN KAMI
+                    </h3>
+                    <p className="text-sm opacity-70">
+                        Solusi transportasi premium di Batam. Fleksibel, nyaman, dan profesional.
+                    </p>
                 </div>
             </div>
 
@@ -34,7 +22,7 @@ export default function ServiceList() {
                         Rental Mobil Lepas Kunci
                     </h3>
                     <p className="text-sm opacity-70">
-                        Bebas berkendara sendiri dengan armada terawat dan persyaratan mudah.
+                        Bebas berkendara sendiri dengan kendaraan terawat dan persyaratan mudah.
                     </p>
                 </div>
             </div>
@@ -62,7 +50,7 @@ export default function ServiceList() {
                         Rental Mobil Premium
                     </h3>
                     <p className="text-sm opacity-90">
-                        Armada eksklusif untuk kebutuhan VIP, event, dan perjalanan istimewa.
+                        kendaraan eksklusif untuk kebutuhan VIP, event, dan perjalanan istimewa.
                     </p>
                 </div>
             </div>

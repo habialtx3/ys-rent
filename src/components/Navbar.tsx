@@ -6,7 +6,7 @@ export default function Navbar() {
                     <span className="material-symbols-outlined !text-xl">car_rental</span>
                 </div>
                 <h2 className="text-xl font-black tracking-tighter uppercase">
-                    Elite<span className="text-brand-orange">Drive</span>
+                    <span className="text-brand-orange">YS RENTAL </span> Car
                 </h2>
             </div>
             <div className="hidden md:flex items-center gap-10">
